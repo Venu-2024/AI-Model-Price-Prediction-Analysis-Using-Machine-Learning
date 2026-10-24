@@ -1,0 +1,36 @@
+
+               PROJECT SUMMARY – Intermediate AIML            
+ 1. Data Loading & Cleaning                                   
+    • Handled missing values with group-wise + global median  
+    • Converted dates, cleaned price columns                  
+                                                              
+ 2. Exploratory Data Analysis                                 
+    • Descriptive stats, unique counts, distributions         
+    • Visualizations + correlation heatmap                    
+                                                              
+ 3. Feature Engineering                                       
+    • Time features (year, month, week)                       
+    • Log transforms, price ratio, average price              
+    • Created price_tier target for classification            
+                                                              
+ 4. Train / Test Split                                        
+    • 80/20 split                                             
+    • Stratified split for classification                     
+                                                              
+ 5. Regression                                                
+    • Linear Regression, Ridge, Random Forest                 
+    • Metrics: MAE, RMSE, R²                                  
+                                                              
+ 6. Classification                                            
+    • Logistic Regression, Random Forest                      
+    • Metrics: Accuracy, Precision, Recall, F1                
+                                                              
+ 7. Clustering                                                
+    • K-Means with Elbow + Silhouette analysis                
+    • PCA visualization                                       
+                                                              
+ 8. Advanced Techniques                                       
+    • 5-Fold Cross-Validation                                 
+    • GridSearchCV Hyperparameter Tuning                      
+    • Feature Importance analysis                             
+    • Full Scikit-learn Pipelines                             
